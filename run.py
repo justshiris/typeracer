@@ -6,7 +6,9 @@ from pynput .keyboard import Key ,Controller
 import time  
 import pyautogui  
 from pynput .mouse import Listener  
+###############
 path_to_tesseract =r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe" #put your tesseract location here
+###############
 pytesseract .tesseract_cmd =path_to_tesseract  
 def shit():
     OOOO000O0OO00000O =pyautogui .screenshot (region =(on_click .rx ,on_click .ry ,abs (on_click .rx -on_click .rx2 ),abs (on_click .ry -on_click .ry2 ))) 
